@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
-    return (
+const Navbar = props => (
+
     <div className="bg-dark">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark container" max-height="56px">
             <a id="nameTextSpace" className="text-success bg-dark navbar-brand" href="#"><strong>Adrian Romero</strong></a>
@@ -12,18 +13,18 @@ function Navbar() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="./index.html">About <span className="sr-only">(current)</span></a>
+                        <Link className="nav-link" to="/">About <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="./portfolio.html">Portfolio</a>
+                        <Link className="nav-link" to="/Portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="./contact.html">Contact</a>
+                        <Link className="nav-link" to="/Contact">Contact</Link>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    )};
+    );
 
 export default Navbar;
