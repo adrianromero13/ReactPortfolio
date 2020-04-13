@@ -1,0 +1,4 @@
+/* changes letterspacing for the brand on the navbar */
+#nameTextSpace {
+    letter-spacing: 3px;
+}

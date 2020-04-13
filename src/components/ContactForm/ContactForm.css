@@ -1,0 +1,27 @@
+/* changes letterspacing for the brand on the navbar */
+#nameTextSpace {
+    letter-spacing: 3px;
+}
+
+/* background of the containers throughout the portfolio */
+.well {
+    background-color: rgba(54, 54, 54, 0.767);
+}
+
+/* my attempt to center certain containers */
+.col-centered {
+  float: none;
+  margin: 0
+}
+
+.nounderline:hover {
+  text-decoration: none;
+
+}
+
+.formButton {
+  margin: 12px 0;
+  text-align: center;
+}
+
+

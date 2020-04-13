@@ -7,7 +7,7 @@ const About = props => (
     <div className="container well">
             <div className="row border-top border-bottom border-success">
                 <div className="col-auto text-success">
-                    <p className=""><h5 className="text-justify-center align-middle">About Me</h5></p>
+                    <h5 className="text-justify-center align-middle">About Me</h5>
                 </div>
             </div>
             <div className="row">
