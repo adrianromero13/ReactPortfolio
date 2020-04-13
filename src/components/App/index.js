@@ -11,8 +11,8 @@ const App = props => (
   <Router>
     <Navbar />
     <Route exact path="/" component={About}/>
-
-
+    <Route exact path="/Contact" component={Contact}/>
+    
     <Footer />
   </Router>
 );
