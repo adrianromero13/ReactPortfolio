@@ -1,12 +1,10 @@
 import React from 'react';
 
+import './About.css';
+
 
 const About = props => (
-    <div className="container"
-        style={{
-            backgroundColor: 'rgba(54,54,54,0.767'
-        }}
-    >
+    <div className="container well">
             <div className="row border-top border-bottom border-success">
                 <div className="col-auto text-success">
                     <p className=""><h5 className="text-justify-center align-middle">About Me</h5></p>

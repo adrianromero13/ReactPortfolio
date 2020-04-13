@@ -10,7 +10,7 @@ import Footer from '../Footer';
 const App = props => (
   <Router>
     <Navbar />
-    <About />
+    <Route exact path="/" component={About}/>
 
 
     <Footer />
