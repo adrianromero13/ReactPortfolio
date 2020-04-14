@@ -16,17 +16,23 @@ const PortfolioPage = (props) => (
                 <div className="col-6 flexbox d-none d-md-block">
 
                     <div className="card text-white bg-success mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/DNA.jpg" alt="Card image DNA" />
-                        <div className="card-header">Immunology - serology</div>
+                        <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Password Generator" />
+                        </a>
+                        <div className="card-header">Password Generator</div>
                     </div>
 
                     <div className="card text-info bg-light mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/cycling.jpg" alt="Card image cyclist" />
+                    <a href="" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image cyclist" />
+                        </a>
                         <div className="card-header">Habits</div>
                     </div>
 
                     <div className="card text-light bg-danger mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/DBZ.jpg" alt="Card image anime" />
+                    <a href="" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image anime" />
+                        </a>
                         <div className="card-header">Tv shows</div>
                     </div>
 
@@ -34,17 +40,23 @@ const PortfolioPage = (props) => (
 
                 <div className="col-6 flexbox d-none d-md-block">
                     <div className="card text-white bg-secondary mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/moon.jpg" alt="Card image full moon" />
+                    <a href="" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image full moon" />
+                        </a>
                         <div className="card-header">Full Moon</div>
                     </div>
 
                     <div className="card text-white bg-secondary mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/bass-clef.jpg" alt="Card image bass clef" />
+                    <a href="" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image bass clef" />
+                        </a>
                         <div className="card-header">Bass-clef</div>
                     </div>
 
                     <div className="card text-white bg-secondary mb-3">
-                        <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="./assets/images/camera.jpg" alt="Card image Camera" />
+                    <a href="" target="_blank">
+                            <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image Camera" />
+                        </a>
                         <div className="card-header">Hobbies</div>
                     </div>
                 </div>
@@ -67,22 +79,34 @@ const PortfolioPage = (props) => (
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src="./assets/images/DNA.jpg" alt="First slide" />
+                        <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
+                            <img className="d-block w-100" src="" target="_blank" alt="First slide" />
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="./assets/images/cycling.jpg" alt="Second slide" />
+                        <a>
+                            <img className="d-block w-100" src="" href="" target="_blank" alt="Second slide" />
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="./assets/images/DBZ.jpg" alt="Third slide" />
+                        <a>
+                            <img className="d-block w-100" src="" href="" target="_blank" alt="Third slide" />
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="./assets/images/moon.jpg" alt="Fourth slide" />
+                        <a>
+                            <img className="d-block w-100" src="" href="" target="_blank" alt="Fourth slide" />
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="./assets/images/bass-clef.jpg" alt="Fifth slide" />
+                        <a>
+                            <img className="d-block w-100" src="" href="" target="_blank" alt="Fifth slide" />
+                        </a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="./assets/images/camera.jpg" alt="Sixth slide" />
+                        <a>
+                            <img className="d-block w-100" src="" href="" target="_blank" alt="Sixth slide" />
+                        </a>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
