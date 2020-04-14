@@ -80,32 +80,32 @@ const PortfolioPage = (props) => (
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
-                            <img className="d-block w-100" src="" target="_blank" alt="First slide" />
+                            <img className="d-block w-100" src="" alt="First slide" />
                         </a>
                     </div>
                     <div className="carousel-item">
                         <a>
-                            <img className="d-block w-100" src="" href="" target="_blank" alt="Second slide" />
+                            <img className="d-block w-100" src="" alt="Second slide" />
                         </a>
                     </div>
                     <div className="carousel-item">
                         <a>
-                            <img className="d-block w-100" src="" href="" target="_blank" alt="Third slide" />
+                            <img className="d-block w-100" src="" alt="Third slide" />
                         </a>
                     </div>
                     <div className="carousel-item">
                         <a>
-                            <img className="d-block w-100" src="" href="" target="_blank" alt="Fourth slide" />
+                            <img className="d-block w-100" src="" alt="Fourth slide" />
                         </a>
                     </div>
                     <div className="carousel-item">
                         <a>
-                            <img className="d-block w-100" src="" href="" target="_blank" alt="Fifth slide" />
+                            <img className="d-block w-100" src="" alt="Fifth slide" />
                         </a>
                     </div>
                     <div className="carousel-item">
                         <a>
-                            <img className="d-block w-100" src="" href="" target="_blank" alt="Sixth slide" />
+                            <img className="d-block w-100" src="" alt="Sixth slide" />
                         </a>
                     </div>
                 </div>
