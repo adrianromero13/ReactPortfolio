@@ -34,7 +34,12 @@ const ContactForm = (props) => (
                     
                     <div className="form-group">
                         <label>Phone Number</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput4" placeholder="(123)456-7890"/>
+                        <input type="tel" 
+                        className="form-control" 
+                        id="exampleFormControlInput4"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}]" 
+                        placeholder="(123)456-7890"
+                        required/>
                     </div>
                     
                     <div className="border-top border-bottom border-success bg-success"></div>
