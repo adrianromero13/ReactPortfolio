@@ -1,0 +1,53 @@
+/* changes the background of each page to a custom one */
+#ownBackground {
+    background-image: url(./../Images/dark_theme_background.jpg);
+}
+
+/* changes letterspacing for the brand on the navbar */
+#nameTextSpace {
+    letter-spacing: 3px;
+}
+
+/* background of the containers throughout the portfolio */
+.well {
+    background-color: rgba(54, 54, 54, 0.767);
+}
+
+/* my attempt to center certain containers */
+.col-centered {
+  float: none;
+  margin: 0
+}
+
+/* create a desired space at the end of each body (before the footer)  */
+#pseudoClass {
+  margin-top: 100px;
+
+}
+
+/* customize the space inside the image container in the carousel to keep it from resizing */
+.carousel-item img {
+  max-height: 350px !important;
+  max-width: auto;
+}
+
+#customTextOnCard p {
+  font-size: 12px;
+}
+
+.nounderline:hover {
+  text-decoration: none;
+
+}
+
+.formButton {
+  margin: 12px 0;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+
+}
