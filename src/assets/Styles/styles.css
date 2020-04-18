@@ -1,6 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
 /* changes the background of each page to a custom one */
-#ownBackground {
+.ownBackground {
     background-image: url(./../Images/dark_theme_background.jpg);
+    flex: 1 0 auto;
+    padding: 15px;
+    min-height: 100vh;
 }
 
 /* changes letterspacing for the brand on the navbar */
@@ -21,8 +29,8 @@
 
 /* create a desired space at the end of each body (before the footer)  */
 #pseudoClass {
-  margin-top: 100px;
-
+  flex-shrink: 0;
+  text-align: center;
 }
 
 /* customize the space inside the image container in the carousel to keep it from resizing */
@@ -50,4 +58,10 @@
   height: 30vw;
   object-fit: cover;
 
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }

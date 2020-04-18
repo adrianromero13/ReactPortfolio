@@ -3,7 +3,7 @@ import React from 'react';
 import './../../assets/Styles/styles.css';
 
 const ContactForm = (props) => (
-    <div id="ownBackground">
+    <div className="ownBackground">
         <div className="container well">
             <br />
             <div className="row border-top border-bottom border-success">

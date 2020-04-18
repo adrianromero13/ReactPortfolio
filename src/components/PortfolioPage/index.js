@@ -1,7 +1,11 @@
 import React from 'react';
 
+// image imports *this did not work
+import bassClef from './../../assets/Images/bass-clef.jpg';
+
+
 const PortfolioPage = (props) => (
-    <div id="ownBackground">
+    <div className="ownBackground">
         <div className="container well">
             <br />
             <div>
@@ -18,14 +22,14 @@ const PortfolioPage = (props) => (
                     <div className="col-6 flexbox d-none d-md-block">
 
                         <div className="card text-white bg-success mb-3">
-                            <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Password Generator" />
+                            <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={bassClef} alt="Password Generator" />
                             </a>
                             <div className="card-header">Password Generator</div>
                         </div>
 
                         <div className="card text-info bg-light mb-3">
-                            <a href="" target="_blank">
+                            <a href="" target="_blank" rel="noopener noreferrer">
                                 <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image cyclist" />
                             </a>
                             <div className="card-header">Habits</div>
@@ -82,32 +86,32 @@ const PortfolioPage = (props) => (
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
-                                <img className="d-block w-100" src="" alt="First slide" />
+                                <img className="d-block w-100" src={bassClef} alt="First slide" />
                             </a>
                         </div>
                         {/* friendcard exercise map*/}
                         <div className="carousel-item">
-                            <a>
+                            <a href="" target="_blank">
                                 <img className="d-block w-100" src="" alt="Second slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a>
+                            <a href="" target="_blank">
                                 <img className="d-block w-100" src="" alt="Third slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a>
+                            <a href="" target="_blank">
                                 <img className="d-block w-100" src="" alt="Fourth slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a>
+                            <a href="" target="_blank">
                                 <img className="d-block w-100" src="" alt="Fifth slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a>
+                            <a href="" target="_blank">
                                 <img className="d-block w-100" src="" alt="Sixth slide" />
                             </a>
                         </div>

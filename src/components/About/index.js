@@ -4,7 +4,7 @@ import './../../assets/Styles/styles.css';
 
 
 const About = props => (
-    <div id="ownBackground">
+    <div className="ownBackground">
         <div className="container well">
             <br />
             <div className="row border-top border-bottom border-success">
