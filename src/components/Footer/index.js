@@ -7,6 +7,8 @@ const Footer = props => (
             <div className="container text-center">
                 <h6><strong>Adrian Romero 2020 Portfolio</strong></h6>
                 <a href="https://www.linkedin.com/in/adrian-romero-b185b598/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a href="https://github.com/adrianromero13" target="_blank" rel="noopener noreferrer">GitHub</a>
+
             </div>
         </footer>
     // </div>
