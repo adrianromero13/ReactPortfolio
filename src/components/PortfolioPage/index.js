@@ -1,7 +1,13 @@
 import React from 'react';
 
-// image imports *this did not work
-import bassClef from './../../assets/Images/bass-clef.jpg';
+//images imported from assets
+import Camera from './../../assets/Images/camera.jpg';
+import JSQuiz from './../../assets/Images/JSQuiz.png';
+import EmployeeTracker from './../../assets/Images/employeeTracker.png';
+import DailyPlanner from './../../assets/Images/dailyPlanner.png';
+import FridgeRaider from './../../assets/Images/fridgeraider.jpg';
+import RandomPassword from './../../assets/Images/randomPassword.png';
+
 
 
 const PortfolioPage = (props) => (
@@ -23,47 +29,47 @@ const PortfolioPage = (props) => (
 
                         <div className="card text-white bg-success mb-3">
                             <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank" rel="noopener noreferrer">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={bassClef} alt="Password Generator" />
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={RandomPassword} alt="Password Generator" />
                             </a>
                             <div className="card-header">Password Generator</div>
                         </div>
 
                         <div className="card text-info bg-light mb-3">
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image cyclist" />
+                            <a href="https://github.com/adrianromero13/EmployeeDatabase-HW" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={EmployeeTracker} alt="Employee Tracker"/>
                             </a>
-                            <div className="card-header">Habits</div>
+                            <div className="card-header">Employee Tracker</div>
                         </div>
 
                         <div className="card text-light bg-danger mb-3">
-                            <a href="" target="_blank">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image anime" />
+                            <a href="https://adrianromero13.github.io/Daily-planner/" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={DailyPlanner} alt="Empoyee Daily Planner" />
                             </a>
-                            <div className="card-header">Tv shows</div>
+                            <div className="card-header">Daily Planner</div>
                         </div>
 
                     </div>
 
                     <div className="col-6 flexbox d-none d-md-block">
                         <div className="card text-white bg-secondary mb-3">
-                            <a href="" target="_blank">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image full moon" />
+                            <a href="https://adrianromero13.github.io/fridge.raider/" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={FridgeRaider} alt="Fridge Raider" />
                             </a>
-                            <div className="card-header">Full Moon</div>
+                            <div className="card-header">Fridge Raider</div>
                         </div>
 
                         <div className="card text-white bg-secondary mb-3">
-                            <a href="" target="_blank">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image bass clef" />
+                            <a href="https://github.com/adrianromero13/ReadMeGenerator-03-02" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={Camera} alt="Github Resume Generator" />
                             </a>
-                            <div className="card-header">Bass-clef</div>
+                            <div className="card-header">Github Resume Generator</div>
                         </div>
 
                         <div className="card text-white bg-secondary mb-3">
-                            <a href="" target="_blank">
-                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src="" alt="Card image Camera" />
+                            <a href="https://adrianromero13.github.io/Question-game/index.html" target="_blank" rel="noopener noreferrer">
+                                <img className="card-img-top shadow-lg p-2 mb-5 img-fluid" src={JSQuiz} alt="Full moon" />
                             </a>
-                            <div className="card-header">Hobbies</div>
+                            <div className="card-header">JavaScript Quiz</div>
                         </div>
                     </div>
                 </div>
@@ -85,34 +91,34 @@ const PortfolioPage = (props) => (
 
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank">
-                                <img className="d-block w-100" src={bassClef} alt="First slide" />
+                            <a href="https://adrianromero13.github.io/PassowrodGenerator/Generator.html" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={RandomPassword} alt="First slide" />
                             </a>
                         </div>
                         {/* friendcard exercise map*/}
                         <div className="carousel-item">
-                            <a href="" target="_blank">
-                                <img className="d-block w-100" src="" alt="Second slide" />
+                            <a href="https://github.com/adrianromero13/EmployeeDatabase-HW" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={EmployeeTracker} alt="Second slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a href="" target="_blank">
-                                <img className="d-block w-100" src="" alt="Third slide" />
+                            <a href="https://adrianromero13.github.io/Daily-planner/" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={DailyPlanner} alt="Third slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a href="" target="_blank">
-                                <img className="d-block w-100" src="" alt="Fourth slide" />
+                            <a href="https://adrianromero13.github.io/fridge.raider/" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={FridgeRaider} alt="Fourth slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a href="" target="_blank">
-                                <img className="d-block w-100" src="" alt="Fifth slide" />
+                            <a href="https://github.com/adrianromero13/ReadMeGenerator-03-02" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={Camera} alt="Fifth slide" />
                             </a>
                         </div>
                         <div className="carousel-item">
-                            <a href="" target="_blank">
-                                <img className="d-block w-100" src="" alt="Sixth slide" />
+                            <a href="https://adrianromero13.github.io/Question-game/index.html" target="_blank" rel="noopener noreferrer">
+                                <img className="d-block w-100" src={JSQuiz} alt="Sixth slide" />
                             </a>
                         </div>
                     </div>
